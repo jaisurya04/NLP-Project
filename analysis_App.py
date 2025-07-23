@@ -1,3 +1,4 @@
+
 import streamlit as st
 
 st.header("Sentiment_Analysis")
@@ -17,7 +18,7 @@ st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 
 
 
-st.checkbox('Yes')
+st.checkbox('Yes','No')
 st.radio('Pick your gender', ['Male', 'Female'])
 st.selectbox('Pick a fruit', ['Apple', 'Banana', 'Orange'])
 st.multiselect('Choose a planet', ['Jupiter', 'Mars', 'Neptune'])
